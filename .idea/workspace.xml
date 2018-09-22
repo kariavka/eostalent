@@ -9,52 +9,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27e7fb-752c-44ed-bd52-39cbbcb2bf52" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/eostalent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend-bak/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.editorconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.ember-cli" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.eslintignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.eslintrc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.watchmanconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/components/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/controllers/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/helpers/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/models/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/resolver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/router.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/routes/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/app.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/templates/application.hbs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app/templates/components/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/config/environment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/config/targets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/ember-cli-build.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/public/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/testem.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/tests/helpers/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/tests/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/tests/integration/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/tests/test-helper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/tests/unit/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/vendor/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" afterPath="$PROJECT_DIR$/frontend-bak/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" afterPath="$PROJECT_DIR$/frontend-bak/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" afterPath="$PROJECT_DIR$/frontend-bak/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/index.jsx" afterPath="$PROJECT_DIR$/frontend-bak/src/pages/index.jsx" />
+    <list default="true" id="7c27e7fb-752c-44ed-bd52-39cbbcb2bf52" name="Default Changelist" comment="[+] Added Ember.js">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/eostalent.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,8 +64,8 @@
       <file leaf-file-name="ember-cli-build.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/ember-cli-build.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="105">
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -118,24 +81,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend-bak/src/pages/index.jsx">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="107" column="22" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,6 +105,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="43080770-be9e-11e8-b495-3fe54ee3d062" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,6 +117,7 @@
         <option value="$PROJECT_DIR$/frontend/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/frontend/ember-cli-build.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -805,11 +772,6 @@
               <item name="eostalent" type="b2602c69:ProjectViewProjectNode" />
               <item name="eostalent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="eostalent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eostalent" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -881,6 +843,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -895,9 +883,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="107" column="22" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/templates/application.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/ember-cli-build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/styles/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/pages/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/frontend-bak/src/pages/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="107" column="22" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -921,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/ember-cli-build.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -935,18 +988,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding />
         </state>
       </provider>
