@@ -1,0 +1,35 @@
+<form {{action "save" on="sibmit"}}>
+  <h3>New Profile</h3>
+
+  <hr/>
+
+  <div class="mb-3">
+    <div class="mb-1">
+      <strong>What is your talent?</strong>
+    </div>
+
+    <div class="mb-1">
+      {{input type="text"
+              value=model.title
+              placeholder="Input your best talent..."
+              class="form-control"}}
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <div class="mb-1">
+      <strong>Describe your talent</strong>
+    </div>
+
+    <div class="mb-1">
+      {{textarea type="text"
+                 value=model.description
+                 placeholder="Describe your talent details..."
+                 class="form-control"}}
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">
+    Save
+  </button>
+</form>

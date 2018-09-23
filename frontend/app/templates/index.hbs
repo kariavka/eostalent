@@ -1,3 +1,35 @@
-{{common/common-nav}}
+{{common/common-nav
+  q=q}}
 
-{{common/common-label title="Index"}}
+<div class="container-fluid">
+  <div class="row mt-5">
+    <div class="col-sm-4 offset-sm-4 text-center">
+
+      <div class="mb-3">
+
+        <h5 class="mb-1">Talents Found</h5>
+        <hr class="mb-3"/>
+
+        {{#if model.profiles}}
+          {{#each model.profiles as |item|}}
+            {{#link-to "profiles.item" item.id}}
+              <div class="">
+                <i class="fa fa-check-circle text-success"></i>
+                {{item.title}}
+              </div>
+            {{/link-to}}
+          {{/each}}
+        {{/if}}
+      </div>
+
+      <hr class="mb-4"/>
+
+      <div>
+        {{#link-to "profiles.create" class="btn btn-primary"}}
+          <i class="fa fa-plus"></i>
+          Create Profile
+        {{/link-to}}
+      </div>
+    </div>
+  </div>
+</div>

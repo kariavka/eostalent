@@ -1,3 +1,13 @@
-Account
+{{common/common-nav}}
 
-{{outlet}}
+<div class="container-fluid mt-3">
+  <h1>Account</h1>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <div>Name:  {{me.data.name}}</div>
+      <div>Email: {{me.data.email}}</div>
+      <div>Public Key: {{me.data.public}}</div>
+    </div>
+  </div>
+</div>

@@ -9,7 +9,15 @@ export default Base.extend({
   me: service(),
 
   // Keys
-  keys: [{key: 'test', name: 'test'}],
+  // We assume that this data will be stored on database on beckend
+  keys: [
+    {
+      name: 'kariavka',
+      email: 'artem@kariavka.com',
+      private: 'privatekey',
+      public: 'publikey',
+    },
+  ],
   name: null,
 
   // Restore
@@ -18,13 +26,13 @@ export default Base.extend({
     const keys = get(this, 'keys');
     const cookieService = this.get('cookies');
     const key = cookieService.read('key');
-    const authenticated = keys.filter(item => item.key === key);
+    const authenticated = keys.filter(item => item.private === key);
 
     // noinspection UnnecessaryLocalVariableJS
     let promise = new Promise(function (resolve, reject) {
 
       if (authenticated) {
-        set(me, 'name', authenticated[0].name);
+        set(me, 'data', authenticated[0]);
         resolve();
       } else {
         reject();
@@ -39,14 +47,14 @@ export default Base.extend({
   authenticate(key) {
     const me = get(this, 'me');
     const keys = get(this, 'keys');
-    const authenticated = keys.filter(item => item.key === key);
+    const authenticated = keys.filter(item => item.private === key);
     const cookieService = this.get('cookies');
 
     // noinspection UnnecessaryLocalVariableJS
     let promise = new Promise(function (resolve, reject) {
 
       if (authenticated) {
-        set(me, 'name', authenticated[0].name);
+        set(me, 'data', authenticated[0]);
         cookieService.write('key', key);
         resolve();
       } else {
@@ -65,7 +73,7 @@ export default Base.extend({
 
     // noinspection UnnecessaryLocalVariableJS
     let promise = new Promise(function (resolve, reject) {
-      set(me, 'name', null);
+      set(me, 'data', null);
       cookieService.clear('key');
       resolve(data);
     });
